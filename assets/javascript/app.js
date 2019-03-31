@@ -1,13 +1,10 @@
-
-// Build out a "start" page with a start button
-
 // Build out a timer 
       //  Start on click.
       $("#start").on("click", function() {
         //  Set the button alert's timeout to run sixty seconds after the function's called.
         delayButtonAlert = setTimeout(function() {
           alert("Alert #2: Called 60 seconds after the start button is clicked.");
-        }, 1000 * 6);
+        }, 1000 * 60);
       });
 
 // Start the timer when pressing the start button
