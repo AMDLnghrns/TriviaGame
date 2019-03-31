@@ -1,0 +1,16 @@
+
+
+
+body {
+    background-color: black;
+}
+
+header {
+    color: white;
+}
+.container {
+    background-color: grey;
+    height: 90%;
+    width: 90%;
+}
+
