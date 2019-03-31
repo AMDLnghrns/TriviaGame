@@ -1,5 +1,15 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
 
+h1 {
+    text-align: center;
+}
 
+#start {
+    text-align: center;
+
+}
 
 body {
     background-color: black;
@@ -13,4 +23,6 @@ header {
     height: 90%;
     width: 90%;
 }
+
+
 
