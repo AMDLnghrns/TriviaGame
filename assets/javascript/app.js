@@ -1,22 +1,20 @@
-// Build out a timer 
-      //  Start on click.
-      $("#start").on("click", function() {
-        //  Set the button alert's timeout to run sixty seconds after the function's called.
-        delayButtonAlert = setTimeout(function() {
-          alert("Alert #2: Called 60 seconds after the start button is clicked.");
-        }, 1000 * 60);
-      });
 
-// Start the timer when pressing the start button
+// Upon button click:
+$("#start").on("click", function () {
+    // Set timer to run X seconds
+    delayButtonAlert = setTimeout(function () {
+        //After X seconds, do this:
+        alert("ALERT");
+    // Set X
+    }, 1000 * 2);
+    $("#Game2").html(
+        '<div class="container"><br />Question 1: What color is a panda?<br /><br /><input type="radio" id="mc" name="question1" value=0> Brown and White <br /><input type="radio" id="mc" name="question1" value=0> Black and Brown <br /><input type="radio" id="mc" name="question1" value=1> Black and White <br /><input type="radio" id="mc" name="question1" value=0> Black and Yellow <br />'
+    );
+});
 
-
-//Build out a timer that drops down from 90 seconds
 
 // Build out a place to calculate the score
 var score = 0;
-console.log (score);
-// Come up with questions 
-
 
 /* 
 <div class="container">
@@ -145,8 +143,3 @@ Question 12: What is the first letter on a typewriter?
 
 </div> 
 */
-
-
-
-
-
