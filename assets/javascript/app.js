@@ -13,12 +13,6 @@ $("#start").on("click", function () {
 
 
 // Build out a place to calculate the score
-var correctAnswers = 1;
-var incorrectAnswers = 2;
-var unanswered = 9;
-
-//    '<div class="container"><br />Question 1: What color is a panda?<br /><br /><input type="radio" id="mc" name="question1" value=0> Brown and White <br /><input type="radio" id="mc" name="question1" value=0> Black and Brown <br /><input type="radio" id="mc" name="question1" value=1> Black and White <br /><input type="radio" id="mc" name="question1" value=0> Black and Yellow <br />   <br />'
-
-
-
-
+var correctAnswers = 0;
+var incorrectAnswers = 0;
+var unanswered = 0;
