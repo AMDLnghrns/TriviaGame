@@ -1,5 +1,6 @@
 * {
     font-family: 'Oswald', sans-serif;
+    color: white;
 }
 
 h1 {
@@ -11,9 +12,9 @@ h1 {
 
 }
 
-/* body {
+body {
     background-color: black;
-} */
+}
 
 /* header {
     color: white;
